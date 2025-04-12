@@ -1,0 +1,80 @@
+/* Container for the question card */
+.question-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Styling for the question text */
+  .question-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the radio button answers */
+  .question-card form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .question-card label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .question-card input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Styling for the error message */
+  .question-card .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the submit button */
+  .question-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .question-card button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the result section */
+  .question-card .result {
+    margin-top: 20px;
+  }
+  
+  .question-card .result p {
+    font-size: 1.2rem;
+  }
+  
+  /* Styling for correct and incorrect answers */
+  .question-card .result p.green {
+    color: green;
+  }
+  
+  .question-card .result p.red {
+    color: red;
+  }
+  
+  .question-card .result strong {
+    font-weight: bold;
+  }
+  
